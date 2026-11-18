@@ -24,3 +24,18 @@ A smart web-based library management application designed to simplify library op
 ## Git and GitHub
 
 This project uses Git for version control and GitHub for remote repository hosting.
+
+## Project Architecture
+
+The project follows a modular full-stack architecture.
+
+Detailed project modules, folder responsibilities, workflow and the Mermaid architecture diagram are documented here:
+
+- [Project Architecture Documentation](docs/PROJECT_ARCHITECTURE.md)
+
+## Day 3 - Project Organization
+
+- Organized frontend source folders.
+- Organized backend source folders.
+- Added project architecture and module documentation.
+- Prepared the initial system workflow diagram.
