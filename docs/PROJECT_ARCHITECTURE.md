@@ -1,4 +1,4 @@
-# AI-Enabled Library Management System
+﻿# AI-Enabled Library Management System
 
 ## Project Modules and System Architecture
 
@@ -18,7 +18,7 @@ The AI-Enabled Library Management System is a web-based application designed to 
 | AI Services | Support intelligent book recommendations or AI-assisted discovery |
 | Dashboard and Reports | Display library statistics and activity summaries |
 
-**Note:** These are proposed modules. They should be aligned with the final approved project blueprint.
+Note: These are proposed modules and should be aligned with the final approved project blueprint.
 
 ### 3. Frontend Responsibilities
 
@@ -54,7 +54,7 @@ flowchart TD
     AI --> EXT[External AI API]
     DB --> C
     C --> API
-    API --> F    API --> F
+    API --> F
     F --> U
 ```
 
