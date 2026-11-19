@@ -39,3 +39,17 @@ Detailed project modules, folder responsibilities, workflow and the Mermaid arch
 - Organized backend source folders.
 - Added project architecture and module documentation.
 - Prepared the initial system workflow diagram.
+
+## Day 4 - Project Requirements and Development Planning
+
+The project requirements document defines the planned functional and non-functional requirements, user requirements, features, modules, development priorities and implementation tasks.
+
+- [Project Requirements Documentation](docs/PROJECT_REQUIREMENTS.md)
+
+### Day 4 Deliverables
+
+- Identified functional and non-functional requirements.
+- Documented user requirements and expected features.
+- Divided the application into logical modules.
+- Prioritized features as Must Have, Should Have and Could Have.
+- Prepared a development task list and module dependencies.
