@@ -4,8 +4,9 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
-
+const borrowRoutes = require("./routes/borrowRoutes");
 const authRoutes = require("./routes/authRoutes");
+const studentRoutes = require("./routes/studentRoutes");
 const bookRoutes = require("./routes/bookRoutes");
 
 const app = express();
@@ -22,6 +23,10 @@ app.use("/api/auth", authRoutes);
 
 // Book Management Routes
 app.use("/api/books", bookRoutes);
+
+app.use("/api/borrows", borrowRoutes);
+
+app.use("/api/students", studentRoutes);
 
 // Home Route
 app.get("/", (req, res) => {
